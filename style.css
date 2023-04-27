@@ -1,0 +1,64 @@
+body {
+    background-color: #383e42;
+    padding: 0;
+    margin: 0;
+}
+
+header, main {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: crimson;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+button {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: 1px solid black;
+    width: 10%;
+    margin-top: 10px;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+input {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 40%
+}
+
+input:hover {
+    border: 2px solid black;
+}
+
+#result-txt {
+    font-family: 'Chakra Petch', sans-serif;
+    color: crimson;
+    font-size: 2rem;
+    margin-top: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
